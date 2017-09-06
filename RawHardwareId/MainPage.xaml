@@ -26,6 +26,7 @@
                 <TextBlock>十六进制 64 位无符号整数。<LineBreak/>例如: E4146543AA171106</TextBlock>
                 <TextBox Text="{x:Bind Model.RawFormat,Mode=TwoWay}"/>
                 <TextBlock Foreground="Red" Text="{x:Bind Model.ErrorText,Mode=OneWay}"/>
+                <TextBlock>版权所有 (C) 2017 Nukepayload2。保留所有权利。</TextBlock>
             </StackPanel>
         </ScrollViewer>
     </Grid>
